@@ -13,4 +13,10 @@ let getJohnProfile = () => {
     );
   });
 };
+let res = getJohnProfile()
+  .then((resolve) => {
+    resolve;
+  })
+  .catch();
+console.log(res);
 // Start coding here

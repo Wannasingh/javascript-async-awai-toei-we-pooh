@@ -32,4 +32,22 @@ let getJohnOrders = () => {
   });
 };
 
+let newGetJohnProfile = async () => {
+  try {
+    let res = await getJohnProfile();
+    console.log(res);
+  } catch (error) {
+    console.log(error);
+  }
+};
+let newGetJohnOrders = async () => {
+  try {
+    let res = await getJohnOrders();
+    console.log(res);
+  } catch (error) {
+    console.log(error);
+  }
+};
+newGetJohnProfile();
+newGetJohnOrders();
 // Start coding here

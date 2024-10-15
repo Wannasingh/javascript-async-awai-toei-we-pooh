@@ -12,4 +12,15 @@ let getJohnProfile = () => {
   });
 };
 
+console.log(
+  getJohnProfile()
+    .then((res) => {
+      console.log(res);
+      res;
+    })
+    .catch((reject) => {
+      console.log(reject);
+    })
+);
+
 // Start coding here

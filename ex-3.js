@@ -32,4 +32,19 @@ let getJohnOrders = () => {
   });
 };
 
+console.log(
+  getJohnProfile()
+    .then((e) => {
+      e;
+    })
+    .catch()
+);
+
+console.log(
+  getJohnOrders()
+    .then((e) => {
+      e;
+    })
+    .catch()
+);
 // Start coding here
