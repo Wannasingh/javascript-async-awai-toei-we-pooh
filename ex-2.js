@@ -13,3 +13,10 @@ let getJohnProfile = () => {
 };
 
 // Start coding here
+const onSucess = (data) => {
+  console.log(data)
+}
+const onFailure = (error) => {
+  console.log(error)
+}
+getJohnProfile().then(onSucess).catch(onFailure)
